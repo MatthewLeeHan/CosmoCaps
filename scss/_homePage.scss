@@ -1,0 +1,44 @@
+body{
+    background-color: #59FFB8;
+
+    .topNav{
+        width: 95%;
+        margin: 0 auto;
+        ul{
+            margin: .65em 0 0 0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            // border: 1px solid black;
+            // align all things to the right, then using margin-right auto on just the logo to shove it left
+            justify-content: flex-end;
+            .img_nav_element{
+                margin-right:auto
+            }
+            // second element in the navbar
+            .two{
+                margin-right: 10px;
+            }
+            .nav_element{
+                // padding: 0px 10px 0 0;
+                align-self: flex-center;
+                .logo_img{
+                    width: 2.5em;
+                    // margin: 10px 0 0 0px;
+                }
+                a{
+                    text-decoration: none;
+                    font-weight: 600;
+                    color: white;
+                    &:hover{
+                        color: darkgrey;
+                    }
+                }
+                .text_link{
+                    font-size: .5em;
+                }
+            }
+        }
+    }
+
+}
