@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,wCAAI,CAIZ,AAAA,IAAI,AAAC,CACD,WAAW,CAHF,QAAQ,CAAE,UAAU,CAI7B,SAAS,CAAE,GAAG,CACjB",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/_typography.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
